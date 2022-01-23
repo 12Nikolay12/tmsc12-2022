@@ -6,7 +6,7 @@ public class Hello {
         Scanner in = new Scanner(System.in);
         System.out.print("Please, enter your name: ");
         String name = in.nextLine();
-        System.out.print("Welcome to java, " + name);
+        System.out.println("Welcome to java, " + name);
         in.close();
 
     }
