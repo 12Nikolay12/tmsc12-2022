@@ -1,4 +1,4 @@
-public class Homework {
+public class HomeWork {
     public static void main(String[] args) {
         //вывод на консоль
         printLiterals();
@@ -52,3 +52,4 @@ public class Homework {
         return Math.sqrt(gipotinuse);
     }
 }
+
