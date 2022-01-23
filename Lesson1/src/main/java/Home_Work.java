@@ -1,7 +1,5 @@
-import org.jetbrains.annotations.NotNull;
-
 public class Home_Work {
-    public static void main(@NotNull String[] args) {
+    public static void main(String[] args) {
         int count = 0;
         for (String value : args) {
             int parseIntValue = Integer.parseInt(value);
