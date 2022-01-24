@@ -1,4 +1,4 @@
-public class HomeWork_7 {
+public class HomeWork7 {
     public static void main(String[] args) {
         int[] myList = {1, 2, 10, 3};
         int max = myList[0];

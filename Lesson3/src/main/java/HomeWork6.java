@@ -1,4 +1,4 @@
-public class HomeWork_6 {
+public class HomeWork6 {
     public static void main(String[] args) {
         int num[] = {1, 2, 3, 4, 5};
         double sum = 0;
