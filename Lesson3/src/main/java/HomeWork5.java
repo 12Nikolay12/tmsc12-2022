@@ -1,7 +1,7 @@
-public class HomeWork_5 {
+public class HomeWork5 {
     public static void main(String[] args) {
         System.out.println("    byte short char int long float double boolean");
-        System.out.println("byte  т    я     я   я    я    я     я       х");
+        System.out.println("byte  т    ня    ня  ня   ня   ня    ня       х");
         System.out.println("short я    т     я   ня   ня   ня    ня      х");
         System.out.println("char  я    я     т   ня   ня   ня    ня      х");
         System.out.println("int   я    я     я   т    ня   ня    ня      х");

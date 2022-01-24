@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
-public class HomeWork_2 {
+public class HomeWork2 {
     public static void main(String[] args) {
         int num;
         System.out.println("Введите число: ");
         Scanner input = new Scanner(System.in);
         num = input.nextInt();
-        if (num % 2 == 0)
+        if (num % 2 == 0) {
             System.out.println("Число четное");
-        else
+        } else {
             System.out.println("Число нечетное");
+        }
     }
 }
 
