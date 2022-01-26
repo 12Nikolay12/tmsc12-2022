@@ -1,4 +1,4 @@
-public class Homework {
+public class HomeWork {
     public static void main(String[] args) {
         //вывод на консоль
         printLiterals();
@@ -31,24 +31,22 @@ public class Homework {
     }
 
     public static int sum(int a, int b) {
-        int sum = a + b;
-        if (sum > Integer.MAX_VALUE) {
-            return --sum;
-        } else
-            return sum;
+        int sum = (a+b)  ;
+        return sum;
     }
-
 
     public static int max(int a, int b) {
         if (a <= b) {
             System.out.print("max=");
             return (b);
-        } else System.out.print("max=");
-        return (a);
+        } else {
+            System.out.print("max=");
+            return (a);
+        }
     }
 
     public static double calculateHypotenuse(int a, int b) {
-        int gipotinuse = a * a + b * b;
-        return Math.sqrt(gipotinuse);
+        return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
     }
 }
+
