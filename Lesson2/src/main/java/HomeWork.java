@@ -30,18 +30,22 @@ public class HomeWork {
         System.out.println(h);
     }
 
-    public static int sum(int a, int b) {
-        int sum = (a+b)  ;
-        return sum;
+    public static int sum(long a, long b) {
+        long sum = a + b  ;
+        if (sum > Integer.MAX_VALUE) {
+            return Integer.MAX_VALUE;
+        } else {
+            return (int)sum;
+        }
     }
 
     public static int max(int a, int b) {
         if (a <= b) {
             System.out.print("max=");
-            return (b);
+            return b;
         } else {
             System.out.print("max=");
-            return (a);
+            return a;
         }
     }
 
