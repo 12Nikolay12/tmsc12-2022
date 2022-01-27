@@ -1,11 +1,14 @@
+import java.util.Random;
+
 public class HomeWork1 {
     public static void main(String[] args) {
         //1) Задача на оператор switch!
 //        Рандомно генерируется число От 1 до 7.
 //        Если число равно 1, выводим на консоль “Понедельник”, 2 –”Вторник” и так далее.
 //        Если 6 или 7 – “Выходной”.
-        double day = Math.random() * 7;
-        switch ((int)day) {
+        Random random = new Random();
+        int day = random.nextInt(8-1);
+        switch (day) {
             case 1: //month == 1
                 System.out.println("Monday");
                 break;
