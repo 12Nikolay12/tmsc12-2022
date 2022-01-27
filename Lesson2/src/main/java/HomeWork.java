@@ -31,17 +31,21 @@ public class HomeWork {
     }
 
     public static int sum(int a, int b) {
-        int sum = (a+b)  ;
-        return sum;
+        long sum = (long)a + (long)b  ;
+        if (sum > Integer.MAX_VALUE) {
+            return Integer.MAX_VALUE;
+        } else {
+            return (int)sum;
+        }
     }
 
     public static int max(int a, int b) {
         if (a <= b) {
             System.out.print("max=");
-            return (b);
+            return b;
         } else {
             System.out.print("max=");
-            return (a);
+            return a;
         }
     }
 
