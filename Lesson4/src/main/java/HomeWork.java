@@ -1,26 +1,12 @@
 public class HomeWork {
 
     public static void main(String[] args) {
-//1) Задача на оператор switch!
-//        Рандомно генерируется число От 1 до 7.
-//        Если число равно 1, выводим на консоль “Понедельник”, 2 –”Вторник” и так далее.
-//        Если 6 или 7 – “Выходной”.
-
-//2) Одноклеточная амеба каждые 3 часа делится на 2 клетки. Определить,
-//         сколько амеб будет через 3, 6, 9, 12,..., 24 часа
-
-//3) В переменную записываем число.
-//        Надо вывести на экран сколько в этом числе цифр и положительное оно или отрицательное.
-//        Например, Введите число: 5
-//        "5 - это положительное число, количество цифр = 1"
-
-//4) Дано 2 числа, день и месяц рождения. Написать программу, которая определяет знак зодиака человека.
 
         //Некоторые тесты для проверки задач. Можно также написать свои тесты.
         printArray();
         System.out.println(operation(1));
         System.out.println(operation(0));
-        System.out.println(calculateCountOfOddElementsInMatrix(new int[]{1, 2, 3, 4, 5, 6}));
+  //      System.out.println(calculateCountOfOddElementsInMatrix(new int[]{1, 2, 3, 4, 5, 6}));
         countDevs(103);
         countDevs(11);
         foobar(6);
@@ -58,10 +44,30 @@ public class HomeWork {
      * Необходимо найти количество нечетных элементов в массиве и вернуть значение в метод main,
      * в котором это значение распечатается на консоль.
      */
-    public static int calculateCountOfOddElementsInMatrix(int[] ints) {
-        // тут пишем логику
-        return 0;
+    /**   public static int calculateCountOfOddElementsInMatrix(int arr[]) {
+        int even_count = 0;
+        int odd_count = 0;
+
+       // for (int i = 0; i < arr_size; i++) {
+
+            if ((arr[i] & 1) == 1)
+                odd_count++;
+            else
+                even_count++;
+        }
+
+        System.out.println("Number of even"
+                + " elements = " + even_count
+                + " Number of odd elements = "
+                + odd_count);
+
+        int arr[] = { 2, 3, 4, 5, 6 };
+        int n = arr.length;
+
+        // Function Call
+        calculateCountOfOddElementsInMatrix(arr, n);
     }
+**/
 
     /**
      * На вход приходит число.
