@@ -1,28 +1,22 @@
-/** import java.util.Scanner;
-
 public class HomeWork3 {
     //3) В переменную записываем число.
     //        Надо вывести на экран сколько в этом числе цифр и положительное оно или отрицательное.
     //        Например, Введите число: 5
     //        "5 - это положительное число, количество цифр = 1"
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        myMethod(scanner.nextLine());
+        myMethod(53);
+        myMethod(-323);
+        myMethod(0);
     }
 
-    private static void myMethod(String myStr) {
-        Scanner parser = new Scanner(myStr);
-        int num = new int();
-        while (parser.hasNextInt()) {
-            if ((num % 10) == num) {
-                System.out.println("1 цифра");
-            } else if ((num % 100) == num) {
-                System.out.println("2 цифры");
-            } else if ((num % 1000) == num) {
-                System.out.println("3 цифры");
+    private static void myMethod(int myStr) {
+            if ((myStr % 10) == myStr) {
+                System.out.print("количество цифр = 1, ");
+            } else if ((myStr % 100) == myStr) {
+                System.out.print("количество цифр = 2, ");
+            } else if ((myStr % 1000) == myStr) {
+                System.out.print("количество цифр = 3, ");
             }
-            num = parser.nextInt();
-            System.out.println(num == 0 ? 3 : num > 0 ? 2 : 1);
+            System.out.println(myStr == 0 ? "Это Ноль" : myStr > 0 ? "Это Положительное число" : "Это Отрицательное число");
         }
     }
-}  **/

@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class HomeWork4 {
     //4) Дано 2 числа, день и месяц рождения. Написать программу, которая определяет знак зодиака человека.
