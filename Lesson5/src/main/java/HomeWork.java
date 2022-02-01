@@ -1,8 +1,24 @@
 public class HomeWork {
     public static void main(String[] args) {
-        calculateSumOfDiagonalElements();
-        printMatrix();
+        int[][] a = {{ 1, 2, 3 },
+                { 4, 5, 6 },
+                { 7, 8, 9 }};
+
+        int s = 0;
+
+        for(int i=0; i<a.length; ++i){
+            for(int j=0; j<a[i].length; ++j){
+                if(i == j){
+                    s += a[i][j];
+                }
+            }
+        }
+
+        System.out.println(s);
     }
+
+//        calculateSumOfDiagonalElements();
+//        printMatrix();
 //        Задачи:
 
 //        1) Напишите реализацию метода summ(int a, int b), вычисляющий a*b, не пользуясь операцией
@@ -34,7 +50,7 @@ public class HomeWork {
 //        Выведите массив на экран в строку. Замените каждый элемент с нечётным индексом на ноль.
 //        Снова выведете массив на экран на отдельной строке.
 
-//        6) Найти максимальный элемент в массиве {4,5,0,23,77,0,8,9,101,2} и поменять его местами с нулевым элементом
+//        6) Найти максимальный элемент в массиве  и поменять его местами с нулевым элементом
 
 //        7) Проверить, различны ли все элементы массива, если не различны то вывести элемент повторяющийся
 //        Пример: {0,3,46,3,2,1,2}
@@ -55,10 +71,9 @@ public class HomeWork {
     /**
      * заполнить рандомно 2-х мерный массив и посчитать сумму элементов на диагонали
      */
-    public static void calculateSumOfDiagonalElements() {
+    public static void calculateSumOfDiagonalElements(){
         //пишем логику и выводим результат используя System.out.println
-    }
-
+        }
 
     /**
      * Шаги по реализации:
