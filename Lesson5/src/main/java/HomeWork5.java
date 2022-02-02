@@ -5,7 +5,7 @@ public class HomeWork5 {
         public static void main(String[] args){
             int[] Mas = new int[20];
             for(int i=0;i<Mas.length;i++){
-                Mas[i]=(int)(Math.random()*20);
+                Mas[i]=(int)(Math.random()*21);
                 System.out.print(Mas[i] +" ");
             }
             for(int i=0;i<Mas.length;i++){

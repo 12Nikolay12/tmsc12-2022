@@ -4,17 +4,17 @@ public class HomeWork4 {
 //        Пример: {3,4,5,62,7,8,4,-5,7,62,5,1} Максимальный элемент 62, индекс его последнего вхождения в массив = 10
     public static void main(String[] args) {
 
-        int mas1[] = new int[12];
+        int mas[] = new int[12];
 
-        for (int i = 0; i < mas1.length; i++) {
-            mas1[i] = (int) Math.floor(Math.random() * 16);
-            System.out.print(mas1[i] + " ");
+        for (int i = 0; i < mas.length; i++) {
+            mas[i] = (int) Math.floor(Math.random() * 16);
+            System.out.print(mas[i] + " ");
 
         }
-        int max = mas1[0], index = 0;
-        for (int i = 0; i < mas1.length; i++) {
-            if (mas1[i] >= max ) {
-                max = mas1[i];
+        int max = mas[0], index = 0;
+        for (int i = 0; i < mas.length; i++) {
+            if (mas[i] >= max ) {
+                max = mas[i];
                 index = i;
             }
         }
