@@ -1,10 +1,10 @@
 package by.tms.exercise1;
 
 public class User {
-    public String name;
-    public String surname;
-    public int age;
-    public String gender;
+    private String name;
+    private String surname;
+    private int age;
+    private String gender;
 
     public User(String name, String surname) {
         this.name = name;
