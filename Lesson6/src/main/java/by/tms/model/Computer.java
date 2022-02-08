@@ -30,7 +30,6 @@ public class Computer {
                 } else {
                     burn();
                 }
-                System.out.println("Осталось циклов " + cycleResource--);
             } else {
                 burn();
             }
@@ -40,6 +39,7 @@ public class Computer {
     public void off() {
         System.out.println("Выключение компьютера");
         cycleResource--;
+        System.out.println("Осталось циклов " + cycleResource--);
     }
 
     public void burn() {
